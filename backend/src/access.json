@@ -1,0 +1,14 @@
+[
+    {
+        "role":"user",
+        "access":{
+            "data":"R"
+        }
+    },
+    {
+        "role":"admin",
+        "access":{
+            "data":"CRUD"
+        }
+    }
+]

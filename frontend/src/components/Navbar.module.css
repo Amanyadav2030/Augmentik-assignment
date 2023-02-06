@@ -1,0 +1,7 @@
+.links a:first-child{
+        color: black;
+}
+.links a{
+    color: rgb(122, 122, 122);
+    font-weight: 500;
+}
