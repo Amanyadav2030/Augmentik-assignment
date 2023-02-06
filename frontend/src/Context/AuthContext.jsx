@@ -1,6 +1,6 @@
 import { createContext, useState } from "react";
 export const AuthContext = createContext();
-function AuthContextProvider({ children }) {
+function AuthContextProvider({ children }) { 
     let role = localStorage.getItem('role') || '';
     let Tok = localStorage.getItem('token') || null;
     const [isAuth, setIsAuth] = useState(false);
